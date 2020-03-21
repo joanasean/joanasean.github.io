@@ -42,25 +42,33 @@
    
     </div>
   </nav>
+  <style>
+    .img-container {
+      text-align: center;
+      display: block;
+    }
+  </style>
 </head>
 
 <body style = "background-color:rgb(46, 46, 48);">
     
     <div class="center">
-      <h1>Summary: Latitude vs. X</h1>
-      <img src="Images/Fig1.png" align= "left" alt="Latitude vs Cities" HSPACE=”50” VSPACE=”50” width="400px"/> 
-      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap api to
-        assemble a dataset on over 500 cities. 
+      <h1 align="center">Wind Speed</h1>
+      <span class= "img-container">
+        <img src="Images/Fig4.png" alt="WindSpeed" > 
+      </span>
+    
+      <p> Noticeably, one can see a cluster of observations around the right lower corner of the graph. 
+          This could be translated as a concentration of low wind speeds around latitude coordinates further away from the equator. 
+          Additionally, there is no noticeable positive or negative trend around aside from the noticeable cluster around positive latitudes.
     
       </p>
-      <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-        This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-      </p>
+    
       
     </div>
   
     <div class="center">
-      <h1>Visualizations</h1>
+      <h1 align="center">Visualizations</h1>
       <img src="Images/Fig1.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
       <img src="Images/Fig2.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
       <img src="Images/Fig3.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 

@@ -42,30 +42,55 @@
    
     </div>
   </nav>
+  <style>
+    .img-container {
+      text-align: center;
+      display: block;
+    }
+  </style>
 </head>
 
 <body style = "background-color:rgb(46, 46, 48);">
     
     <div class="center">
-      <h1>Summary: Latitude vs. X</h1>
-      <img src="Images/Fig1.png" align= "left" alt="Latitude vs Cities" HSPACE=”50” VSPACE=”50” width="400px"/> 
-      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap api to
-        assemble a dataset on over 500 cities. 
-    
-      </p>
-      <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-        This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-      </p>
-      
-    </div>
-  
-    <div class="center">
-      <h1>Visualizations</h1>
-      <img src="Images/Fig1.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
-      <img src="Images/Fig2.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
-      <img src="Images/Fig3.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
-      <img src="Images/Fig4.png" alt="Latitude vs Cities" HSPACE=”80” VSPACE=”80” width="320px"/> 
-      
+        <h1 align="center">Comparison: Latitude vs X</h1>
+        <hr color="black">
+        <p>Click on any plot below to get an in depth analysis:</p>
+        <h1 align="center">vs. Max Temperature</h1>
+        <span class= "img-container">
+        <a href="maxtemp.html">
+          <img src="Images/Fig1.png" alt="maxtemp"> 
+        </a>
+        </span>
+        <hr color="black">
+        <hr color="black">
+
+        <h1 align="center">vs. Humidity</h1>
+        <span class= "img-container">
+        <a href="humidity.html">
+          <img src="Images/Fig2.png" alt="humidity"> 
+        </a>
+        </span>
+        <hr color="black">
+        <hr color="black">
+
+        <h1 align="center">vs. Cloudiness</h1>
+        <span class= "img-container">
+        <a href="cloudiness.html">
+          <img src="Images/Fig3.png" alt="cloudiness"> 
+        </a>
+        </span>
+        <hr color="black">
+        <hr color="black">
+
+        <h1 align="center">vs. Wind Speed</h1>
+        <span class= "img-container">
+        <a href="windspeed.html">
+            <img src="Images/Fig4.png" alt="cloudiness"> 
+        </a>
+        </span>
+
+
     </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
